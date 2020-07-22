@@ -16,6 +16,8 @@ import pylast
 from requests import get
 import time
 
+UpTime = time.time()
+
 Lastupdate = time.time()
 
 os.system("pip install --upgrade pip")
