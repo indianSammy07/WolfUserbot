@@ -9,7 +9,7 @@ import asyncio
 
 from userbot.utils import admin_cmd
 
-@borg.on(admin_cmd("fridaybot"))
+@borg.on(admin_cmd("wolf"))
 async def _(event):
     if event.fwd_from:
         return
@@ -20,7 +20,7 @@ async def _(event):
     await event.edit("Thanks")
     animation_chars = [
             "Click here to Go to Telegraph",
-            "[Click Here For Guide](https://telegra.ph/FRIDAY-06-15)"
+            "[Click Here For Guide](https://t.me/Rkprojects)"
          ]
             
 
