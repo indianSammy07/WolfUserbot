@@ -25,7 +25,7 @@ async def _(event):
               await event.client.forward_messages(chat, reply_message)
               response = await response 
           except YouBlockedUserError: 
-              await event.reply("`RIP Check Your Blacklist Boss`")
+              await event.reply("`RIP Check Your Blacklist Boss😉`")
               return
           if response.text.startswith(""):
              await event.edit("Am I Dumb Or Am I Dumb?")
