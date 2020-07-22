@@ -1,4 +1,4 @@
-"""By STARKTM1
+"""By WolfGang
 cmd : .plane"""
 from telethon import events
 import asyncio
