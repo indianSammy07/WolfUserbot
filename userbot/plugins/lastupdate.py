@@ -1,4 +1,4 @@
-# Base by @Sur_Vivor And Idea And Created By @StarkxD
+# Base by @MadNooB And Idea And Created By @MrSemmy
 from telethon import events
 from datetime import datetime
 from telethon import events
@@ -47,4 +47,4 @@ async def _(event):
     end = datetime.now()
     ms = (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - Lastupdate))
-    await event.edit(f"🔰 Friday Userbot Has Been Restarted Or Updated {uptime} Ago !")
+    await event.edit(f"♻️ WolfUserbot Has Been Restarted Or Updated {uptime} Ago !")
