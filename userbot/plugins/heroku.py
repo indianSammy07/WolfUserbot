@@ -183,4 +183,4 @@ async def _(dyno):
         await dyno.edit("Sending in Progress.......")
         await asyncio.sleep(5)
         await dyno.delete()
-        return os.remove('fridaylogs.txt')
+        return os.remove('wolflogs.txt')
