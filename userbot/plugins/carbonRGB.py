@@ -57,7 +57,7 @@ async def carbon_api(e):
 
  if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
    """ A Wrapper for carbon.now.sh """
-   await e.edit("⬜⬜⬜⬜⬜")
+   await e.edit("🟪🟪🟪🟪")
    CARBON = 'https://carbon.now.sh/?bg=rgba({R}%2C{G}%2C.{B}%2C1)&t={T}&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Fira%20Code&fs=14px&lh=152%25&si=false&es=2x&wm=false&code={code}'
    CARBONLANG = "en"
    textx = await e.get_reply_message()
@@ -77,7 +77,7 @@ async def carbon_api(e):
    chrome_options.add_argument('--disable-gpu')
    prefs = {'download.default_directory' : './'}
    chrome_options.add_experimental_option('prefs', prefs)
-   await e.edit("⬛⬛⬜⬜⬜")
+   await e.edit("🟩🟩🟪🟪🟪")
 
    driver = webdriver.Chrome(executable_path=Config.CHROME_DRIVER, options=chrome_options)
    driver.get(url)
@@ -90,17 +90,17 @@ async def carbon_api(e):
    sleep(5) # this might take a bit.
    #driver.find_element_by_xpath("//button[contains(text(),'4x')]").click()
    #sleep(5)
-   await e.edit("⬛⬛⬛⬜⬜")
+   await e.edit("🟩🟩🟩🟪🟪")
    #driver.find_element_by_xpath("//button[contains(text(),'PNG')]").click()
    #sleep(5) #Waiting for downloading
 
-   await e.edit("⬛⬛⬛⬛⬛")
+   await e.edit("🟩🟩🟩🟩🟩")
    file = './carbon.png'
    await e.edit("✅RGB Karbon Completed, Uploading...........")
    await e.client.send_file(
          e.chat_id,
          file,
-         caption="Carbonised by [FRIDAY](https://github.com/midhunkm1294-bit/Friday)",
+         caption="Carbonised by [WOLFUSERBOT](https://github.com/indianSammy07/WolfUserbot)",
          force_document=False,
          reply_to=e.message.reply_to_msg_id,
          )
