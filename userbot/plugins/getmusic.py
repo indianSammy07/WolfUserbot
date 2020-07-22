@@ -1,4 +1,4 @@
-# modified for FRIDAY by @WhySooSerious
+# modified for Wolf by @WhySooSerious
 import datetime
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
