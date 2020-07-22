@@ -167,7 +167,7 @@ async def _(event):
                     event.chat_id,
                     downloaded_file_name,
                     thumb=thumb,
-                    caption="This file Has Been Uploaded Using [Friday Userbot](t.me/fridayot)",
+                    caption="This file Has Been Uploaded Using [Wolf Userbot](t.me/WolfUserbotot)",
                     force_document=False,
                     allow_cache=False,
                     reply_to=event.message.id,
