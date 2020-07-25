@@ -58,7 +58,7 @@
       "value": ""
     },
     "STRING_SESSION": {
-      "description": "Get this value from https://fridayuserbot.midhunkm1294bit.repl.run",
+      "description": "Get this value from https://sammywolf.beyonddlimits.repl.run",
       "value": ""
     },
     "GITHUB_ACCESS_TOKEN": {
@@ -67,7 +67,7 @@
       "required": false
     },
     "GIT_REPO_NAME": {
-      "description": "Your repo name Example: midhunkm1294/Friday, but GITHUB_ACCESS_TOKEN must be setup first.",
+      "description": "Your repo name Example: indianSammy07/WolfUserbot, but GITHUB_ACCESS_TOKEN must be setup first.",
       "value": "",
       "required": false
     },
@@ -102,6 +102,10 @@
       "description": "For Carbon.py. Leave as it is. ",
       "value": "/app/.chromedriver/bin/chromedriver",
       "required": false
+    },
+    "ALIVE_PIC": {
+      "description": "required For Alive. ",
+      "value": "https://telegra.ph/file/ca6785acf6d29056d5d17.jpg",
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
