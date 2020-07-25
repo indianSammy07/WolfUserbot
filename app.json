@@ -106,6 +106,7 @@
     "ALIVE_PIC": {
       "description": "required For Alive. ",
       "value": "https://telegra.ph/file/ca6785acf6d29056d5d17.jpg",
+      "required": false
     },
     "TG_BOT_USER_NAME_BF_HER": {
       "description": "Needed for inline buttons maker. Make a bot at [BotFather](http://telegram.dog/BotFather) and get the username of your bot",
