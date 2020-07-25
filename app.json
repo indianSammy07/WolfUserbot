@@ -1,6 +1,6 @@
 {
   "name": "WOLF",
-  "description": "Userbot created by a @Boy_is_Back and join https://t.me/Wolfuserbot_Support for any problems or support",
+  "description": "Userbot created by a @Boy_is_Back and join https://t.me/Wolfuserbotot for any problems or support",
   "logo": "https://telegra.ph/file/ba9f45df35ded904fca75.jpg",
     "keywords": [
     "telegram",
@@ -28,7 +28,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @Mariodevs.",
+      "description": "Fill your Full name or Username like @MrSemmy.",
       "value": ""
     },
     "APP_ID": {
