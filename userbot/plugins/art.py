@@ -274,9 +274,9 @@ async def survivor(pikachu):
 async def survivor(shit):
     await shit.edit(B)
     
-@borg.on(admin_cmd(pattern=r"saxy"))
-async def survivor(saxy):
-    await saxy.edit(C)
+@borg.on(admin_cmd(pattern=r"nude"))
+async def survivor(nude):
+    await nude.edit(C)
     
 @borg.on(admin_cmd(pattern=r"pornhub"))
 async def survivor(pornhub):
