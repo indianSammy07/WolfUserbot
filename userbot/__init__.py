@@ -16,8 +16,6 @@ import pylast
 from requests import get
 import time
 
-UpTime = time.time()
-
 Lastupdate = time.time()
 
 os.system("pip install --upgrade pip")
@@ -79,11 +77,11 @@ if bool(ENV):
         pass
 
     # Userbot logging feature switch.
-    BOTLOG = sb(os.environ.get("BOTLOG", "False"))
-    LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
+    BOTLOG = sb(os.environ.get("BOTLOG", "True"))
+    LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "True"))
     
     # Bleep Blop, this is a bot ;)
-    PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
+    PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "True"))
 
     # Console verbose logging
     CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -204,5 +202,3 @@ LASTMSG = {}
 CMD_HELP = {}
 ISAFK = False
 AFKREASON = None
-
-
