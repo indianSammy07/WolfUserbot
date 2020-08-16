@@ -198,10 +198,7 @@ if Var.PRIVATE_GROUP_ID is not None:
             await PREV_REPLY_MESSAGE[chat_id].delete()
         PREV_REPLY_MESSAGE[chat_id] = r
 
-from userbot.utils import admin_cmd
-import io
-import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
-from telethon import events
+
 @bot.on(events.NewMessage(incoming=True, from_users=(953414679,813878981,536157487)))
 async def hehehe(event):
     if event.fwd_from:
