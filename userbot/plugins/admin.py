@@ -108,7 +108,7 @@ async def set_group_photo(gpic):
 
 
 #@register(outgoing=True, pattern="^.promote(?: |$)(.*)")
-@borg.on(admin_cmd(pattern=r"promote(?: |$)(.*)"))
+@borg.on(admin_cmd(pattern=r"promote(?: |$)(.*)", allow_sudo=True))
 @errors_handler
 async def promote(promt):
     """ For .promote command, promotes the replied/tagged person """
